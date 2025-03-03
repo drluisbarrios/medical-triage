@@ -1,40 +1,37 @@
-# Diagnóstico Asistido por IA: Un Enfoque Innovador
+# AI-Assisted Diagnosis: An Innovative Approach
 ![Texto alternativo para la imagen](https://www.itnonline.com/sites/default/files/field/image/Screen%20Shot%202019-10-09%20at%209.00.14%20PM.png)
-Este proyecto desarrolla un modelo de Machine Learning para la predicción de la clasificación de enfermedades basado en síntomas y factores. Se exploran técnicas de preprocesamiento de datos, selección de modelos y ajuste de hiperparámetros para optimizar el rendimiento del modelo.
+This project develops a Machine Learning model for disease classification prediction based on symptoms and factors. It explores data preprocessing techniques, model selection, and hyperparameter tuning to optimize model performance.
 
-## Metodología
+Methodology
+1. Data acquisition and preprocessing.
+2. Model selection (Naive Bayes, Random Forest, etc.).
+3. Hyperparameter tuning using GridSearchCV.
+4. Model performance evaluation using accuracy and confusion matrix.
 
-1.  Obtención y preprocesamiento de datos.
-2.  Selección de modelos (Naive Bayes, Random Forest, etc.).
-3.  Ajuste de hiperparámetros utilizando GridSearchCV.
-4.  Evaluación del rendimiento del modelo utilizando precisión y matriz de confusión.
+## Results
+* Model accuracy: 95%
+* ![Texto alternativo para la imagen](https://i.imgur.com/Mj9yS3W.png)
+* ![Texto alternativo para la imagen](https://i.imgur.com/UTFaZXJ.png)
+* The most important features are: dizziness, abdominal pain, headache, etc.
 
-## Resultados
 
-*   Precisión del modelo: 95%
-*   ![Texto alternativo para la imagen](https://i.imgur.com/UTFaZXJ.png)
-*   Las características más importantes son: mareos, dolor abdominal, dolor de cabeza, etc.
+## Limitations
+The dataset used has limitations in representing certain diseases, affecting the model’s ability to predict them accurately.
 
-## Limitaciones
+## Next Steps
 
-El dataset utilizado presenta limitaciones en la representación de ciertas enfermedades, lo que afecta la capacidad del modelo para predecirlas con precisión.
+* Obtain a more comprehensive and representative dataset.
+* Explore more advanced Machine Learning techniques.
+* Develop an accessible and user-friendly diagnostic tool.
 
-## Próximos Pasos
+## Usage Instructions
+1. Clone this repository.
+2. Install dependencies: pip install -r requirements.txt.
+3. Run the app.py file using Streamlit: streamlit run app.py.
 
-*   Obtener un dataset más completo y representativo.
-*   Explorar técnicas de Machine Learning más avanzadas.
-*   Desarrollar una herramienta de diagnóstico accesible y fácil de usar.
+## License
+This project is licensed under Creative Commons Attribution-NonCommercial (CC BY-NC).
 
-## Instrucciones de Uso
+## Contact
+If you have any questions or suggestions about this project, feel free to contact me at [hi@drluis.co].
 
-1.  Clonar este repositorio.
-2.  Instalar las dependencias: `pip install -r requirements.txt`.
-3.  Ejecutar el archivo `app.py` utilizando Streamlit: `streamlit run app.py`.
-
-## Licencia
-
-Este proyecto se distribuye bajo la licencia MIT.
-
-## Contacto
-
-Si tienes alguna pregunta o sugerencia sobre este proyecto, no dudes en contactarme a través de [tu dirección de correo electrónico].
